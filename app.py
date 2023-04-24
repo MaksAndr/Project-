@@ -30,8 +30,9 @@ app = Flask(__name__)
 def welcome():
     """List all available api routes."""
     return (
+        f"Welcome to Group 4 US Gun Violence Visualization Project:<br/>"
         f"Available Routes:<br/>"
-        f"/api/v1.0/locations<br/>"
+        f"/api/v1.0/index<br/>"
         f"/api/v1.0/cases"
     )
 
@@ -50,9 +51,23 @@ def get_cases():
 
     return jsonify(data)
 
+@app.route("/map")
+def map_page():
+    return render_template("map.html")
+
+@app.route("/api/v1.0/map")
+def get_map():
+    conn = engine.connect()
+
+    df = pd.read_sql('SELECT * FROM GunViolence', conn)
+    data=df.to_dict(orient="records")
+    
+
+    return jsonify(data)
+
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5000, debug=True)
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
