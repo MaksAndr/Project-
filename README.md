@@ -41,11 +41,11 @@ Conducted exploratory data analysis to gain insights into the underlying pattern
 Created charts and maps to help demonstrate the findings of the data analysis.
 
 # Technologies used
-1 Pandas/Python - Pandas library was used for ETL.
-2 SQLite - Stored data in SQLite database.
-3 Flask - Flask framework served as the backend API.
-4 JavaScript, HTML, CSS - Used to design the user interface for the web application.
-5 Apexcharts, Leaflet - Displayed data analysis charts with Apexcharts and interactive map with Leaflet.
+1. Pandas/Python - Pandas library was used for ETL.
+2. SQLite - Stored data in SQLite database.
+3. Flask - Flask framework served as the backend API.
+4. JavaScript, HTML, CSS - Used to design the user interface for the web application.
+5. Apexcharts, Leaflet - Displayed data analysis charts with Apexcharts and interactive map with Leaflet.
 
 # Overview of the web pages
 The application has a dashboard and map pages. There are navigation buttons on the side bar that make switching between the pages easier.
