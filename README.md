@@ -1,4 +1,5 @@
  ## Group 4 Project 3 - Data visualizations
+Group members: Bethelhem Arefayne, Maksym Andreiko, Umeadi Dungor
 
 # Project Requirements
 For Project 3, you will work with your group to tell a story using data visualizations. Here are the specific requirements:
