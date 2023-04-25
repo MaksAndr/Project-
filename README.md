@@ -22,11 +22,14 @@ For Project 3, you will work with your group to tell a story using data visualiz
 
 3. Your final visualization should ideally include at least three views.
 
-# Gun Violence in America
-![Alternate image text](/images/better.png)
+## Gun Violence in America
+
+![Alternate image text](/images/us_state.png)
+
 # Project Description
 The aim of our project is to explore the gun violence that has occurred in the United States from 1982-2023. Gun violence and gun control are some of the most important issues that the Congress is still battling today. We’ll examine the relationships between the location, fatalities, total victims and place of incidents. The data will be able to show the highest mass shooting in the country as well as the top ten shootings in the nation.
-![Alternate image text](/images/better.png)
+
+![Alternate image text](/images/us_state.png)
 
 # Process
 1. Discovery
