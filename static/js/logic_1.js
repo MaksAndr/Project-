@@ -32,9 +32,7 @@ d3.json(url).then(function (data) {
     (a, b) => b["Total victims"] - a["Total victims"]);
 
   let x_axis_case = sortedCaseData.map((item) => item["Case"]).slice(0, 10);
-  let y_axis_case = sortedCaseData
-    .map((item) => item["Total victims"])
-    .slice(0, 10);
+  let y_axis_case = sortedCaseData.map((item) => item["Total victims"]).slice(0, 10);
 
   // Display bar chart
   var barChartOptions = {
@@ -163,7 +161,7 @@ d3.json(url).then(function (data) {
   // Assgain labels
   let citylabels = data.map((item) => item["City"]);
 
-  // Slice and reverse to get top ten in descending order
+  // Slice to get top ten 
 
   let sortedData = data.sort((a, b) => b["Total victims"] - a["Total victims"]);
   let x_axis = sortedData.map((item) => item["City"]).slice(0, 10);
@@ -171,7 +169,7 @@ d3.json(url).then(function (data) {
   let y_axis2 = sortedData.map((item) => item["Fatalities"]).slice(0, 10);
 
   console.log(x_axis, y_axis);
-  let labels = citylabels.slice(0, 10).reverse();
+
 
   // Display group bar chart
   var groupBarChartOptions = {
