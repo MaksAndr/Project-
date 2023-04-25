@@ -94,7 +94,6 @@ d3.json(url).then(function (data) {
   barChart.render();
 
   // PIE CHART
-
   let place_labels = [
     ...new Set(data.map((item) => item["Place of incident"])),
   ];
