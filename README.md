@@ -23,7 +23,6 @@ For Project 3, you will work with your group to tell a story using data visualiz
 3. Your final visualization should ideally include at least three views.
 
 ## Gun Violence in America
-A Dashboard for Understanding Major Incidents by Location from (1982-2023)
 
 ![Alternate image text](/images/state_2.png)
 
