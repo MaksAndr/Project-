@@ -22,9 +22,9 @@ For Project 3, you will work with your group to tell a story using data visualiz
 
 3. Your final visualization should ideally include at least three views.
 
-# Gun Violence in America
-
 ![Alternate image text](/images/state.png)
+
+# Gun Violence in America
 
 
 # Project Description
@@ -57,7 +57,7 @@ Displays KPIs and charts of data analysis results.
 ## Map
 Displays the distribution of the incidents across the states.
 ![Alternate image text](/images/map.png)
-![Alternate image text](/images/state.png)
+
 # Dashboard Analysis
 ### KPI
 Displays the count of incidents, total number of victims and fatalities.
